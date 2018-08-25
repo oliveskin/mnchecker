@@ -45,14 +45,14 @@ from subprocess import Popen, PIPE
 
 #==========================================================
 # Basics
-userDirName = ".mnchecker"
+userDirName = "mnchecker"
 
 #==========================================================
 # Currency defaults
-defaultCurrencyHandle = "vivo"
-defaultCliBin = "/usr/local/bin/vivo-cli"
-defaultDaemonBin = "/usr/local/bin/vivod"
-defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".vivocore")
+defaultCurrencyHandle = "lux"
+defaultCliBin = "/usr/local/bin/lux-cli"
+defaultDaemonBin = "/usr/local/bin/luxd
+defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".lux
 
 #==========================================================
 # Explorer URL
@@ -63,9 +63,8 @@ defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".vivoco
 defaultBlockExplorerBlockCountUrlTemplate = "http://chainz.cryptoid.info/{currencyHandle}/api.dws?q=getblockcount"
 
 #=============================
-# vivo.explorerz.top:3003
-# NOTE: This explorer seems to be derelict (date of notice: February 19, 2018)
-#defaultBlockExplorerBlockCountUrlTemplate = "http://{currencyHandle}.explorerz.top:3003/api/getblockcount"
+#official
+#defaultBlockExplorerBlockCountUrlTemplate = "https://explorer.luxcore.io/api/getblockcount"
 
 #=============================
 # User Agent (e.g. if, for some reason, the web API's web server got misconfigured and blocks urllib)
