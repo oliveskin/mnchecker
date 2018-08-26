@@ -50,8 +50,8 @@ userDirName = "mnchecker"
 #==========================================================
 # Currency defaults
 defaultCurrencyHandle = "lux"
-defaultCliBin = "/usr/local/bin/lux-cli"
-defaultDaemonBin = "/usr/local/bin/luxd
+defaultCliBin = "/lux-cli"
+defaultDaemonBin = "/luxd
 defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".lux
 
 #==========================================================
