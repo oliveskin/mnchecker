@@ -60,11 +60,11 @@ defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".lux
 #=============================
 # chainz.cryptoid.info
 # NOTE: For this explorer, you'll have to set the user agent to "Mozilla/5.0" further below.
-defaultBlockExplorerBlockCountUrlTemplate = "http://chainz.cryptoid.info/{currencyHandle}/api.dws?q=getblockcount"
+# defaultBlockExplorerBlockCountUrlTemplate = "http://chainz.cryptoid.info/{currencyHandle}/api.dws?q=getblockcount"
 
 #=============================
 #official
-#defaultBlockExplorerBlockCountUrlTemplate = "https://explorer.luxcore.io/api/getblockcount"
+defaultBlockExplorerBlockCountUrlTemplate = "https://explorer.luxcore.io/api/getblockcount"
 
 #=============================
 # User Agent (e.g. if, for some reason, the web API's web server got misconfigured and blocks urllib)
